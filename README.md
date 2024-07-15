@@ -2,7 +2,7 @@
 
 ## REQUIREMENTS (one liner explanation for each)
 
-1) Spring Boot version https://start.spring.io/ 
+1) Spring Boot version 3.3.1 https://start.spring.io/ for Java 17
 ###### Dependencies - Lombok, Spring Web, Spring Data Mongodb
 2) Mongodb Community Edition for Windows version 7.0 
  +  [mongosh 2.2.12](https://www.mongodb.com/docs/mongodb-shell/install/)
