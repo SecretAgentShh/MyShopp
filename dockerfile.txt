@@ -1,0 +1,9 @@
+FROM openjdk:17-jdk-slim
+
+WORKDIR /myjava
+
+COPY snappy.jar /myjava/snappy.jar
+
+EXPOSE 8082
+
+ENTRYPOINT ["java", "-jar", "/myjava/snappy.jar"]
